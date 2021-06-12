@@ -12,3 +12,12 @@
 
 
 데이터 전처리 방식
+![image](https://user-images.githubusercontent.com/83406220/121778005-d066d100-cbcf-11eb-845f-5637eadebac5.png)
+
+차량번호와 제시번호는 drop하고
+연식은 연도만 뽑아냅니다
+숫자데이터에 있는 불필요한 , 만원 등은 날려버립니다.
+labelencoder를 이용하여 문자형데이터를 숫자형으로 바꿉니다
+연비 같은 데이터는 결측값을 평균으로 넣습니다
+
+
